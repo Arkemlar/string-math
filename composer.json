@@ -1,0 +1,29 @@
+{
+    "name": "argon/string-math",
+    "description": "'test task'",
+    "type": "lib",
+    "authors": [
+        {
+            "name": "arkemlar",
+            "email": "arkemlar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~7.1"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.3",
+        "phpunit/phpunit": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arkemlar\\EndlessMath\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Arkemlar\\EndlessMath\\": "tests/"
+        }
+    }
+}
